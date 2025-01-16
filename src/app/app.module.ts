@@ -25,6 +25,7 @@ import { MembershipComponent } from './membership/membership.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatTreeModule} from '@angular/material/tree';
+import { HeaderMenuComponent } from './header-menu/header-menu.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { MatTreeModule} from '@angular/material/tree';
     DashboardComponent,
     HeaderComponent,
     FooterComponent,
-    MembershipComponent
+    MembershipComponent,
+    HeaderMenuComponent
    
   ],
   imports: [
